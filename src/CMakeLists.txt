@@ -1,4 +1,0 @@
-# Put this file in every subdirectory with .cpp files
-
-file(GLOB SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
-set(SOURCES ${SOURCES} ${SOURCE_FILES} PARENT_SCOPE)
